@@ -22,5 +22,3 @@ alias pubkey="cat ${HOME}/.ssh/${PUB_KEY_NAME}"
 
 # convert mov file to mp4 file (REQUIRES FFMPEG)
 alias mov2mp4="ffmpeg -i \"${1}.mov\" -vcodec h264 -acodec mp2 \"${1}.mp4\""
-
-alias codemaat='java -jar /Users/steve/projects/code-maat/target/code-maat-1.1-SNAPSHOT-standalone.jar -c git2'
