@@ -19,6 +19,9 @@ _PATH="${_PATH}:/usr/local/opt/llvm/bin"
 # zig
 _PATH="${_PATH}:${HOME}/zig/bin"
 
+# kafka
+_PATH="${_PATH}:/usr/local/Cellar/kafka/2.7.0/bin"
+
 export PATH="${_PATH}"
 
 export LIBRARY_PATH="/usr/local/opt/openssl/lib"

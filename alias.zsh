@@ -3,6 +3,7 @@
 
 # open file or directory in default edirot
 alias edit="open -a \"${TEXT_EDITOR}\" ${1}"
+alias suedit="sudo open -a \"${TEXT_EDITOR}\" ${1}"
 
 # open file or directory in default markdown editor
 alias mdedit="open -a \"${MARKDOWN_EDITOR}\" ${1}"
