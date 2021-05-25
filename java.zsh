@@ -1,1 +1,4 @@
-export JAVA_HOME="/usr/local/Cellar/openjdk/15.0.2"
+# java stuff
+# [[[[secrets are in secrets.zsh]]]]
+
+export JAVA_HOME="/usr/local/Cellar/openjdk/${JDK_VERSION}"
