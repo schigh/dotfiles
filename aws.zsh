@@ -9,3 +9,7 @@ function ecrlogin {
             --username AWS \
             --password-stdin "${AWS_ECR_DEFAULT_ARN}"
 }
+
+alias getparam='aws ssm get-parameter --with-decryption --name'
+alias getparamspath='aws ssm get-parameters-by-path --with-decryption --recursive --path'
+alias deleteparam='aws ssm delete-parameter --name'

@@ -16,9 +16,6 @@ _PATH="${_PATH}:/usr/local/opt/awscli/bin"
 # llvm
 _PATH="${_PATH}:/usr/local/opt/llvm/bin"
 
-# zig
-_PATH="${_PATH}:${HOME}/zig/bin"
-
 # kafka
 _PATH="${_PATH}:/usr/local/Cellar/kafka/${KAFKA_VERSION}/bin"
 
