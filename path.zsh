@@ -22,3 +22,4 @@ _PATH="${_PATH}:/usr/local/Cellar/kafka/${KAFKA_VERSION}/bin"
 export PATH="${_PATH}"
 
 export LIBRARY_PATH="/usr/local/opt/openssl/lib"
+export PROTO_PATH="/usr/local/Cellar/protobuf/3.17.3/include"
