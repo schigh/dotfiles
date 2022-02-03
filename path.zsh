@@ -19,6 +19,12 @@ _PATH="${_PATH}:/usr/local/opt/llvm/bin"
 # kafka
 _PATH="${_PATH}:/usr/local/Cellar/kafka/${KAFKA_VERSION}/bin"
 
+# krew
+_PATH="${_PATH}:${KREW_ROOT:-$HOME/.krew}/bin"
+
+# linkerd
+_PATH="${_PATH}:${HOME}/.linkerd2/bin"
+
 export PATH="${_PATH}"
 
 export LIBRARY_PATH="/usr/local/opt/openssl/lib"

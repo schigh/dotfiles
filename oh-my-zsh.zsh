@@ -76,7 +76,7 @@ plugins=(
     jira
     docker
     docker-compose
-    osx
+    macos
     rsync
     brew
     ssh-agent
