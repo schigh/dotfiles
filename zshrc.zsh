@@ -1,5 +1,5 @@
 export DOTFILES_HOME="${HOME}/dotfiles"
-export EDITOR="/opt/homebrew/bin/zed"
+export EDITOR="/usr/bin/nano"
 
 # source first
 source "${DOTFILES_HOME}/secrets.zsh"
@@ -8,6 +8,8 @@ source "${DOTFILES_HOME}/secrets.zsh"
 source "${DOTFILES_HOME}/go.zsh"
 # google cloud stuff
 source "${DOTFILES_HOME}/gcloud.zsh"
+# node stuff
+source "${DOTFILES_HOME}/node.zsh"
 # misc
 source "${DOTFILES_HOME}/misc.zsh"
 
