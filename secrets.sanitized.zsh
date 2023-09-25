@@ -1,2 +1,4 @@
 export GITHUB_TOKEN="NOPE_NOPE_NOPE_NOPE_NOPE_NOPE"
 export NODE_AUTH_TOKEN="${GITHUB_TOKEN}"
+
+export _GOPRIVATE="github.com/schigh"
