@@ -10,8 +10,12 @@ source "${DOTFILES_HOME}/go.zsh"
 source "${DOTFILES_HOME}/gcloud.zsh"
 # node stuff
 source "${DOTFILES_HOME}/node.zsh"
+# git stuff
+source "${DOTFILES_HOME}/git.zsh"
 # misc
 source "${DOTFILES_HOME}/misc.zsh"
+# ghost cli
+source "${DOTFILES_HOME}/ghost.zsh"
 
 # source last
 source "${DOTFILES_HOME}/alias.zsh"
