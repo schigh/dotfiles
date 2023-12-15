@@ -16,13 +16,21 @@ source "${DOTFILES_HOME}/git.zsh"
 source "${DOTFILES_HOME}/misc.zsh"
 # ghost cli
 source "${DOTFILES_HOME}/ghost.zsh"
+# java
+source "${HOME}/.cargo/env"
+# rust
+source "${HOME}/java.zsh"
 
 # source last
 source "${DOTFILES_HOME}/alias.zsh"
 
 # set last
-_PATH="${PATH}:${HOME}/bin"
+_PATH="${HOME}/bin"
+_PATH="${_PATH}:${HOME}/.local/bin"
 _PATH="${_PATH}:${HOME}/sdk/go/bin"
 _PATH="${_PATH}:${HOME}/go/bin"
+_PATH="${_PATH}:${HOME}/.cargo/bin"
 _PATH="${_PATH}:/usr/local/sbin"
-export PATH="${_PATH}"
+_PATH="${_PATH}:/opt/homebrew/opt/postgresql@15/bin"
+_PATH="${_PATH}:/opt/homebrew/opt/openjdk/bin"
+export PATH="${_PATH}:${PATH}"

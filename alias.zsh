@@ -9,7 +9,6 @@ alias wat="/opt/homebrew/bin/grc /opt/homebrew/bin/git status --porcelain"
 alias brwe="brew" # because i do this a lot
 alias portainer='docker run -d -p 9001:9000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer-ce:linux-arm64 && sleep 1 && open http://localhost:9001'
 alias cat="/opt/homebrew/bin/bat"
-alias cobra="${HOME}/bin/cobra-cli"
 alias tf="/opt/homebrew/bin/terraform"
 alias tfmt="/opt/homebrew/bin/terraform fmt -recursive"
 alias tg="/opt/homebrew/bin/terragrunt"
